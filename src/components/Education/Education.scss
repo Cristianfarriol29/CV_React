@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Cinzel:wght@600&family=Londrina+Shadow&display=swap');
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+
+
+    &__card{
+            
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 1px 3px 3px #aeabab;
+        border-radius: 10px;
+        flex-direction:  column;
+        flex-wrap: nowrap;
+        padding: 2rem;
+            
+        .list{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            margin: 10px;
+            
+            
+            p{
+                
+                margin: 0 30px;
+                color: rgb(201, 203, 204);
+                font-size: 20px;
+
+                @media (max-width: 600px) {
+                    font-size: 16px
+                }
+               
+            }
+
+            img{
+                width: 40%;
+                height: 50%;
+                
+            }
+
+
+        }
+    }
+}
+.title{
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #2C4BE7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(192, 183, 183);
+    font-family: 'Cabin Sketch', cursive;
+}
+

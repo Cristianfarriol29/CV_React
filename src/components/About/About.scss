@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .about{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: black;
+            align-items: flex-start;
+            box-shadow: 0px 1px 3px 3px #aeabab;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 3rem;
+    }
+}
+
